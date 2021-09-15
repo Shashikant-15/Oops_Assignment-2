@@ -2,14 +2,14 @@
 
 class Person(val name: String, val age: Int) extends Ordered[Person]{
 }
-For example:
-Input: personOne = new Person("Test", 24) and personTwo = new Person("Test", 25)
+* For example:
+* Input: personOne = new Person("Test", 24) and personTwo = new Person("Test", 25)
 personOne < personOne
-Output: true
+* Output: true
 
-Input: personOne = new Person("TestAgain", 24) and personTwo = new Person("Test", 25)
+* Input: personOne = new Person("TestAgain", 24) and personTwo = new Person("Test", 25)
 personOne < personOne
-Output: false
+* Output: false
 
 
 ## README
@@ -19,7 +19,7 @@ For Installing Scala in VS Code Ide
 ext install scalameta.metals
 ```
 
-### Installation
+### Installation & Launch
 Launch VS Code Quick Open (Ctrl+P)
 
 ##  Clone the Github Repository
